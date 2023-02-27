@@ -22,7 +22,7 @@ setTimeout(function(){
     $('#_content_restriction_rules_2_membership_plan_id').val(19890);
     $('#_content_restriction_rules_3_membership_plan_id').val(19726);
     
-    const parts = $('[name="post_title"]').val().split('-').join().split('–').join().split(',');
+    const parts = $('[name="post_title"]').val().split('-').join().split('–').join().split(',').join().split('–');
     const categoria = parts[0].trim();
     const dataparts = parts[1].trim().split(' ');
     let data = '';
